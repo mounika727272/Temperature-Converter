@@ -47,7 +47,7 @@ To run the application locally, follow these steps:
    cd temperature-converter
    ```
 
-3. Open `index.html` in your preferred web browser.
+3. Open `index.html` in your preferred Web Browser.
 
 ## Contributing
 
