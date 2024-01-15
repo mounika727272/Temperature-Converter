@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background : linear-gradient(to bottom right
+    , rgb(252, 196, 205),rgb(158, 65, 158)
+    ) ;
+    color: #e7d8d8;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .title {
+    color: #d1c5c5;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .temperature-converter {
+    background: #0d4028;
+    color: #d1d1e9;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+  .result {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .result-heading {
+    color: #e2cfcf;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .celsius-value {
+    border-bottom: 2px solid #e4cece;
+    padding: 10px;
+  }
+  label {
+    color: #ddcaca;
+    font-size: 1;
+    margin-bottom: 5px;
+  }
+  input,
+  select {
+    background: transparent;
+    color: #e4e4ee;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  input:focus {
+    border: 1px solid #b7b6d8;
+  }
+  .degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+  option {
+    background-color: #d3d3ea;
+    color: #1f1a1a;
+  }
+  #convert-btn {
+    background: linear-gradient(to bottom, #FFAFC5, #eab2f2);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #463d3d;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+  #convert-btn:hover {
+    background: linear-gradient(to bottom, #C9D7F8, #9291ec);
+  }
